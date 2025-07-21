@@ -1,16 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+/* start */
 
-*{
-    padding: 0;
-    margin: 0;
+:root{
+    --page-width: 8.5in;
+    --page-height:11in;
+    --left-width: calc(var(--page-width) * (2/3))
 }
-:root {
-    --primary-color: #fff752;
-    --text-color: #000000;
+
+/* Name Section */
+.top-section{
+    width: var(--page-width);
+    height:1in;
+    text-align: center;
+    background-color: aliceblue;
 
 }
-body {
-	font-family: Inter, sans-serif;
-	background-color: black;
-	color: white;
+.top_name{
+    font-size: 30pt;
+}
+
+.top_job{
+    color: blue;
+}
+
+
+.main-content{
+    width:var(--page-width)
+}
+
+.left-column{
+    width:var(--left-width)
+}
+.professional-summary_p{
+    font-size: 11pt;
 }
