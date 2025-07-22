@@ -9,6 +9,9 @@
 }
 body{
     font-family: 'Times New Roman';
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* Name Section */
@@ -44,28 +47,41 @@ body{
 /* Left Side */
 .left-column{
     width:var(--left-width);
+    height: 10in;
     margin-left: 0.25in;
     margin-right: 0.25in;
 }
 /* summary */
+.professional-summary_title{
+    margin-bottom: 15px;
+}
+.professional-summary_title h2{
+    margin-bottom: 0px;
+}
 .professional-summary_p{
+    margin-top: 0px;
     font-size: 11pt;
-    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 /* work experience */
 .work-experience_title{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     padding-bottom: 0px;
 }
 .job1{
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .job1_header{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+.job1_header h3{
+    margin-top: 0px;
 }
 .job1_first-line{
     padding-top: 0px;
@@ -86,9 +102,54 @@ body{
     font-size: 11pt;
 }
 .job1 ul{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 11pt;
+    padding-bottom: 5px;
+}
+.job1 li{
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* Projects */
+
+.projects_title{
+    margin-bottom: 15px;
+}
+
+.project1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project1_header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project1_header h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.project1_first-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project1_second-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    font-size: 11pt;
+}
+.project1 ul{
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 11pt;
+}
+.project1 li{
+    line-height: 1.5;
 }
 
 
